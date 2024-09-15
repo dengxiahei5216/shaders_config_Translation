@@ -1,0 +1,12 @@
+[package]
+name = "file_read_optimize"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rfd = "0.10.0"
+regex = "1.10.6"
+lazy_static = "1.4.0"
+reqwest = {version = "0.12.7",features = ["blocking","json"]}
+serde = {version = "1.0.209",features = ["derive"]}
+serde_json = "1.0.128"
